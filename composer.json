@@ -1,0 +1,23 @@
+{
+  "name": "fabianmichael/kirby-pluginstorage",
+  "description": "Plugin Storage for Kirby",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Fabian Michael",
+          "email": "hallo@fabianmichael.de"
+      }
+  ],
+  "require": {
+      "getkirby/composer-installer": "^1.1"
+  },
+  "autoload": {
+      "psr-4": {
+          "FabianMichael\\PluginStorage\\": "src/"
+      }
+  },
+  "config": {
+      "optimize-autoloader": true
+  }
+}
