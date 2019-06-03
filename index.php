@@ -22,7 +22,7 @@ $methods = [
     },
 ];
 
-Kirby::plugin('fm/storage', [
+Kirby::plugin('fabianmichael/pluginstorage', [
     'pageMethods' => $methods,
     'siteMethods' => $methods,
     'pageModels' => [
